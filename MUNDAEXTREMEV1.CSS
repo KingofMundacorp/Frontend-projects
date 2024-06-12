@@ -1,0 +1,96 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f69607;
+}
+header {
+    background-color: #f2ecec;
+    color: #ef8707;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed; /* Fixed position */
+    top: 0; /* Stick to the top of the viewport */
+    width: 100%; /* Full width */
+    z-index: 999; /* Ensure it stays above other content */
+ }
+
+h2 {
+    margin-bottom: 20px;
+    text-align: center;
+    margin-top: 140px;
+    font-size: 40px;
+}
+.options {
+    display: flex;
+    font-size: 40px;
+    text-align: center;
+    color:black;
+    margin-top: 30px;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+.client-button {
+    width: 300px;
+    height: 200px;
+    background-color: #da7809;
+    text-align: center;
+    margin-left: 190px;
+    margin-right: 10px;
+    border-radius: 10px;
+    font-size: 20px;
+    border-color: #4b2e03;
+}
+.freelancer-button {
+    width: 300px;
+    height: 200px;
+    background-color: #da7809;
+    text-align: center;
+    margin-right: 190px;
+    margin-left: 10px;
+    border-radius: 10px;
+    font-size: 20px;
+    border-color: #4b2e03;
+}
+.other {
+    font-size: 20px;
+    color: black;
+    text-align: center;
+}
+.other p a:hover {
+    text-decoration:underline;
+}
+button:hover {
+    background-color: #a04f08; /* Light gray background on hover */
+}
+
+/* Style the label when the checkbox is checked */
+.checkbox:checked + button {
+    background-color: #754804; /* Change color to indicate checked state */
+    color: white; /* Text color */
+}
+
+/* Hide the checkbox input */
+.checkbox input {
+    display: none;
+}
+.checkbox {
+    margin-left: 260px;
+}
+#actionButton {
+    background-color: #5c4602;
+    color: black;
+    font-weight: bold;
+    font-size: 16px;
+    align-items: center;
+    width: 150px;
+    height: 60px;
+    margin-left: 415px;
+    margin-right: 400px;
+    border-radius: 20px;
+    border-color: none;
+}

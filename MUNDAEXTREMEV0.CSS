@@ -1,0 +1,434 @@
+@media screen and (max-width: 800px) {
+    header {
+        padding: 5px;
+    }
+    .brand-name {
+        font-size: 30px;
+    }
+    .search-input {
+        padding: 5px;
+        margin-right: 10px;
+    }
+    .company-info {
+        margin-top: 80px;
+        font-size: 20px;
+        justify-content: space-between;
+        
+    }
+    .company-info p {
+        font-size:16px;
+        padding:20px 20px 20px 20px;
+    }
+    .company-info img {
+        max-width: 200px;
+        margin-top: 30px;
+        margin-left: 80px;
+        margin-right: 20px;
+        align-items: center;
+    }
+    .persuasive-statement {
+        font-size: 30px;
+        margin-left: 80px;
+        width: 360px;
+    }
+    #slideshow-container {
+        position: relative;
+        max-width: 100%;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    #slideshow-container img {
+        width: 360px;
+        height: 360px;
+        margin-left: 10px;
+    }
+    .new5-button {
+        padding: 10px;
+        margin-right: 10px;
+        font-size: 16px;
+    }
+    
+    #talent-browsing {
+        font-size: 30px;
+    }
+    .looking-for {
+        font-size: 16px;
+        margin-left: 10px;
+        margin-bottom: 10px;
+    }
+    .profession-block {
+        width: 120px;
+        height: 120px;
+        padding: 15px;
+        margin-left: 5px;
+        margin-right: 5px;
+        margin-top: 10px;
+    }
+    h6 {
+        font-size: 30px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    #About {
+        width: 100%;
+    }
+    .About-us {
+        margin: 0 auto;
+    }
+    .Our-values {
+        font-size: 16px;
+        width: 180px;
+    }
+    .know-answer img {
+        max-width: 360px;
+        max-height: 360px;
+        margin-left: 20px;
+    }
+    .footer-content {
+        font-size: 30px;
+        margin-left: 5px;
+        margin-right: 15px;
+        width: 100vw;
+        background-color: #504f4c;
+    }
+    .footer-content1 {
+        width: 100vw;
+    }
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f69607;
+}
+header {
+    background-color: #f2ecec;
+    color: #ef8707;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed; /* Fixed position */
+    top: 0; /* Stick to the top of the viewport */
+    width: 100%; /* Full width */
+    z-index: 999; /* Ensure it stays above other content */
+ }
+ a {
+    color: #1a1813;
+ }
+
+nav {
+    list-style-type: none;
+    margin-left: 20px;
+    padding: 0;
+    display: flex;
+    position:left;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+}
+.left-nav {
+    display: flex;
+    align-items: center;
+}
+.brand-name{
+    margin-right: 20px;
+}
+
+#new1button {
+    background-color: #f2ecec;
+    border: none;
+    color: black;
+    padding: 10px 20px;
+    text-align: centre;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-right: 20px;
+    cursor: pointer;    
+}
+#new2button {
+    background-color: #f2a808; /* Green */
+    border: none;
+    color: black;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-right: 20px;
+    cursor: pointer;
+    border-radius: 20px;
+}
+.search-input{
+    padding: 8px;
+    border-radius: 20px;
+    border: 1px solid #ccc;
+    margin-right: 20px;
+}
+.company-info {
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+    margin-right: 20px;
+    position: left;
+    font-size: 40px ;
+    margin-top: 80px;
+    font-weight: bold;
+
+}
+.company-info img {
+    max-width: 450px;
+    margin-right:1%;
+    position:right;
+    align-items: center;
+    border-radius: 20px;
+    margin-top: 50px;
+}
+.styled-text1 {
+    font-family: Arial, sans-serif; /* Font style for the first set of words */
+    color: #4a2b05;
+    font-size: 55px;
+   
+}
+#new3button {
+    background-color: #5c4602;
+    border: none;
+    color: black;
+    padding: 20px 50px;
+    text-align: centre;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin-right: 20px;
+    margin-left: 20px;
+    cursor: pointer;
+    border-radius: 20px; 
+}
+#slideshow-container {
+    position: relative;
+    max-width: 100%;
+    max-height: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.mySlides {
+    display: none;
+}
+#slideshow-container img {
+    width: 500px;
+    height: auto;
+    border-radius: 30px;
+    margin-left: 20px;
+    margin-right: 10px;
+    align-items: center;
+    position: left;
+    max-height: 100%;
+}
+.persuasive-statement{
+    align-items: center;
+    margin-left: 40px;
+    position: right;
+    font-size: 30px ;
+    width: 50%;
+}
+#new4button{
+    background-color: #5c4602;
+    border: none;
+    color: black;
+    padding: 20px;
+    text-align: centre;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin-right: 20px;
+    margin-left: 20px;
+    cursor: pointer;
+    border-radius: 20px; 
+}
+.menu-column {
+    flex: 1; /* Each column takes equal space */
+    margin-right: 20px; /* Add space between columns */
+}
+
+.menu-column:last-child {
+    margin-right: 0; /* Remove margin from last column */
+}
+h3 {
+    margin-bottom: 10px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    font-size: 16px;
+}
+
+h4 {
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+.persuasive-listings {
+    font-size: 16px;
+    margin-bottom: 5px;
+    margin-left: 40px;
+}
+.new5-button{
+    background-color: #efeeeb;
+    border-color:#5c4602 ;
+    border-width: 2px;
+    color: #5c4602;
+    padding: 20px;
+    text-align: centre;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin-right: 20px;
+    cursor: pointer;
+    border-radius: 20px; 
+}
+.footer-content{
+    background-color: #392b02;
+    border-radius: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 100%;
+}
+.footer-content1{
+    color:#efeeeb;
+    font-size: 12px;
+    justify-content: space-between;
+    align-items: center;
+    display:flex;
+}
+h5 {
+    margin-bottom: 30px;
+    margin-top: 20px;
+    margin-left: 20px;
+    font-size: 20px;
+
+}
+.menu-column2{
+    flex: 1; /* Each column takes equal space */
+    margin-right: 20px; /* Add space between columns */
+}
+.menu-column2 ul {
+    margin-left: 20px;
+    align-items: center;
+    margin-bottom: 30px;
+}
+.footer-content2{
+    margin-left: 10px;
+    color:#efeeeb;
+    font-size: 16px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.footer-content3{
+    margin-left: 10px;
+    margin-right: 30px;
+    color:#efeeeb;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    justify-content: space-between;
+}
+#talent-browsing{
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    color:#1a1813;
+    margin-left: 20px;
+}
+.looking-for{
+    font-size:20px;
+    font-family: Arial, sans-serif;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+.styled-text2{
+    color:#5c4602;
+}
+.profession-blocks {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px; /* Adjust top margin as needed */
+}
+.profession-block {
+    width: 150px; /* Adjust width and margin as needed */
+    background-color: #ab6b0b;
+    height:150px;
+    padding: 20px;
+    border-radius: 8px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 20px;
+}
+.profession-block:hover {
+    background-color: #794b06; /* Change background color on hover */
+}
+.prof-blocks {
+    margin-bottom: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.job-opportunities {
+    font-size: 16px;
+    display: flex;
+    margin-top: 100px;
+}
+h6 {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    
+}
+#About {
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+.About-us {
+    display: flex;
+    margin-left: 20px;
+    margin-right: 20px;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+.Our-values {
+    width: 200px;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-radius: 20px;
+    text-align: center;
+    font-weight: bold;
+}
+.know-answer {
+    display: flex;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.know-answer img {
+    border-radius: 10px;
+    margin-left: 20px;
+}
+.know-answer ul {
+    font-size: 16px;
+    margin-left: 20px;
+}
+.FAQ {
+    margin-left: 50px;
+}

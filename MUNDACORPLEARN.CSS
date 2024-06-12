@@ -1,0 +1,262 @@
+* {
+    text-decoration: none;
+}
+body {
+    background-color: none;
+}
+header {
+    background-color: white;
+    width: 100%;
+    height: 200px;
+}
+.header-brand {
+    font-family: Catamaran;
+    font-size: 60px;
+    color: #111;
+    font-weight: 900;
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+    padding: 20px 0px;
+}
+header nav ul {
+    display:block;
+    margin: 0 auto;
+    width:fit-content;
+
+}
+header nav ul li {
+    display: inline-block;
+    list-style: none;
+    padding:0 16px;
+
+}
+header nav ul li a {
+    font-family: Catamaran;
+    font-size: 30px;
+    color: #111;
+    text-transform: uppercase;
+}
+.header-cases {
+    display: none;
+}
+
+@media only screen and (min-width: 900px) {
+
+    header {
+        height: 80px;
+    }
+
+    .header-brand {
+        text-align: left;
+        margin: 10px 0;
+        padding: 20px 20px 20px 0;
+        border-right: 3px solid #111;
+        float: left;
+        line-height: 60px;
+        font-size: 40px;
+    }
+
+    header nav ul {
+        display:block;
+        margin: 35px 0;
+        float: left;
+    }
+
+    header nav ul li a {
+        font-size: 20px;
+        color: #111;
+        line-height: 30px;
+        
+    }
+
+    .header-cases {
+        display: block;
+        font-family: Catamaran;
+        font-size: 16px;
+        color: #111;
+        text-transform: uppercase;
+        border: 1px solid #111;
+        float: right;
+        line-height: 30px;
+        margin: 30px 40px;
+        padding: 5px 20px 0;
+
+    }
+    
+}
+
+.index-swamp {
+    width: 100%;
+    height: calc(100vh - 200px);
+    background-image: url('Lamborghini-Revuelto.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;
+    display: table;
+}
+.grey-matter {
+    display: table-cell;
+    vertical-align: middle;
+}
+.index-swamp h2 {
+    font-size: 100px;
+    font-weight: 900;
+    font-family: Catamaran;
+    text-align: center;
+    line-height: 110px;
+    color: #fff;
+    text-shadow: 2px 2px 8px #111;
+    
+}
+
+.index-swamp h1 {
+    font-family: Cormorant Garamond;
+    font-size: 50px;
+    font-weight: 100;
+    font-style: italic;
+    color: #fff;
+    text-align: center;
+    line-height: 60px;
+    text-shadow: 2px 2px 8px #111;
+
+    
+}
+.index-fire div {
+    margin: 20px 20px 0;
+    width: calc(100% - 40px);
+    height: 200px;
+    background-color: #f2f2f2;
+    text-align: center;
+    font-size: 50px;
+    font-weight: 900;
+    color: #111;
+    border-radius: 20px;
+    line-height: 200px;
+    font-family: Catamaran;
+    text-transform: uppercase;
+
+}
+
+@media only screen and (min-width: 900px) {
+    .wrapper {
+        width: 900px;
+        margin: 0 auto;
+
+    }
+    .index-swamp {
+        height: 420px;
+       
+    }
+
+    .grey-matter {
+        display: table-cell;
+        vertical-align: middle;
+    }
+    .index-swamp h2 {
+        font-size: 60px;
+        text-align: center;
+        line-height: 70px;
+        
+    }
+    
+    .index-swamp h1 {
+        
+        font-size: 30px;
+        text-align: center;
+        line-height: 40px;
+        max-width: 600px;
+        margin: 0 auto;    
+    }
+
+    .index-fire div {
+        margin: 10px 5px 5px 5px;
+        height: 150px;
+        font-size: 20px;
+        border-radius: 0;
+        line-height: 100px;
+        float: left;
+    }
+    
+    .ralph-square {
+        width: calc(25% - 16px) !important;     
+    }
+
+    .ralph-rectangle {
+        width: calc(50% - 16px) !important;
+    }
+    
+    
+}
+
+
+footer {
+   width: calc(100% - 80px);
+   margin: 20px 20px 20px 0;
+   padding: 40px 40px;
+   background-color: #111;
+   color: #fff;
+   overflow: hidden;
+   border-radius: 20px;
+}
+
+footer ul {
+    width: fit-content;
+    color: #fff;
+    float: left;
+    padding-left: 20px;
+
+}
+
+footer ul li {
+   display: block;
+   list-style: none;
+}
+
+footer ul li a {
+    font-family: Catamaran;
+    font-size: 30px;
+    color: #fff;
+    line-height: 40px;
+}
+
+.latest-projects {
+    display: none;
+}
+
+.tennessen {
+    width: 70px;
+    float: right;
+
+
+}
+.tennessen img {
+    width: 100%;
+    padding: 0 0 10px;
+}
+
+@media only screen and (min-width: 900px) {
+    
+    .latest-projects {
+        display: block;
+    }
+
+    footer ul {
+       
+        padding-right: 30px;
+    
+    }
+
+    footer ul li {
+        font-family: Catamaran;
+        font-size: 30px;
+        color: #fff;
+        line-height: 40px;
+        text-transform: uppercase;
+    }
+
+    footer {
+        width: calc(100% - 100px);    
+     }
+}
+

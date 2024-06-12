@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>T_HUSTLE2</title>
+    <link rel="stylesheet" href="MUNDAHIRE.CSS">
+</head>
+<body>
+    <header>
+        <h1>Welcome to T_hustle</h1>
+        <nav>
+            <ul>
+                <li><button class="nav-button" onclick="scrollToSection('home')">Home</button></li>
+                <li><button class="nav-button" onclick="scrollToSection('about')">About Us</button></li>
+                <li><button class="nav-button" onclick="scrollToSection('jobs')">Job Listings</button></li>
+                <li><button class="nav-button" onclick="scrollToSection('contact')">Contact Us</button></li>
+            </ul>
+        </nav>
+        
+    </header>
+
+    <section id="home">
+        <h2>Find Your Perfect Part-Time Job</h2>
+        <p>Welcome to our platform! Earn and gain experience while you pursue your studies.</p>
+    </section>
+
+    <section id="about">
+        <h2>About Us</h2>
+        <p>We are dedicated to connecting individuals with part-time job opportunities that fit their needs and schedule.</p>
+    </section>
+
+    <section id="jobs">
+        <h2>Job Listings</h2>
+        <form id="jobSelectionForm">
+        <div id="jobListings">
+            <!-- Job listings will be dynamically populated here -->
+        </div>
+        <button type="submit">Apply Selected Jobs</button>
+    </form>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <form id="contactForm">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required><br><br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required><br><br>
+            <label for="message">Message:</label><br>
+            <textarea id="message" name="message" rows="4" cols="50" required></textarea><br><br>
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 T.hustle. All rights reserved.</p>
+    </footer>
+
+    <script src="MUNDAHIRE.js"></script>
+</body>
+</html>
