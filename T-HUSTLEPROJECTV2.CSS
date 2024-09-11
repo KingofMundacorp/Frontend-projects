@@ -73,7 +73,7 @@ header nav ul li a {
 @media only screen and (min-width: 900px){
     
     header {
-        background: linear-gradient(to right, white 0%, white 73%, rgb(162, 95, 207) 73%, rgb(134, 26, 184) 100%);
+        background: linear-gradient(to right, white 0%, white 72%, rgb(162, 95, 207) 72%, rgb(134, 26, 184) 100%);
     }
     
     header nav {
@@ -107,6 +107,28 @@ header nav ul li a {
     .split-background {
         height: 600px;
         background: linear-gradient(to right, white 0%, white 73%, rgb(162, 95, 207) 73%, rgb(134, 26, 184) 100%);
+    }
+
+    .log-in {
+        margin: 0 5px 0 49px;
+        font-size: 20px;
+        line-height: 30px;
+        text-decoration: none;
+        color: #111;
+        font-weight: 900;
+        
+    
+    }
+    .get-started {
+        margin: 0 20px 0 40px;
+        border-radius: 20px;
+        background-color: #f2f2f2;
+        font-size: 20px;
+        line-height: 30px;
+        border-style: none;
+        padding: 10px 10px 10px 10px;
+        color: rgb(155, 90, 190);
+        font-weight: 900;
     }
     
 }
